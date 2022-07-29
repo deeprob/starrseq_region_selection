@@ -4,8 +4,8 @@ import pybedtools
 import numpy as np
 
 
-h3k4me1_file = "/data5/deepro/starrseq/main_library/0_region_selection/data/encode/hek293/chip/histone/matt_downloaded_histones/HEK293_H3K4me1_hg38.bed"
-h3k27ac_file = "/data5/deepro/starrseq/main_library/0_region_selection/data/encode/hek293/chip/histone/matt_downloaded_histones/HEK293_H3K27ac_hg38.bed"
+h3k4me1_file = "/data5/deepro/starrseq/main_library/0_region_selection/data/encode/hek293/chip/matt_downloaded_histones/HEK293_H3K4me1_hg38.bed"
+h3k27ac_file = "/data5/deepro/starrseq/main_library/0_region_selection/data/encode/hek293/chip/matt_downloaded_histones/HEK293_H3K27ac_hg38.bed"
 tss_file = "/data5/deepro/starrseq/main_library/0_region_selection/data/tss/refseq_gene_tss_2kb.bed"
 tf_dir = "/data5/deepro/starrseq/main_library/0_region_selection/data/encode/hek293/chip/tf"
 tcf7l2_dir = "/data5/deepro/starrseq/main_library/0_region_selection/data/encode/hek293/chip/"
