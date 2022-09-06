@@ -17,3 +17,10 @@ To construct STARR-seq libraries, potential enhancer regions were selected based
 # Output
 
 Master file with a list of potential enhancer regions 
+
+# Script descriptions
+
+1. root/src/0_download_encode_data.py: Downloads Chip-Seq data of histones, TFs and p300 from encode in hek293/hela/k562 cell lines.
+2. root/src/1_liftover_tcf7l2.py: TCF7L2 chip seq data was aligned to hg19 genome assembly. This script does liftover to hg38.
+3. root/src/2_get_tss.py: Gets the genomic coordinates of TSSs of refseq genes.
+4. root/src/3_create_master+list.py: This script follows the above steps and generates a list of regions to conduct STARRSeq on.
